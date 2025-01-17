@@ -1,0 +1,201 @@
+/* General styles for placeholders */
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  user-select: none; /* Unified user-select property */
+}
+
+/* Responsive size for larger screens */
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+
+  .display-4 {
+    font-size: 3rem;
+  }
+
+  .card-img-top {
+    height: 40vw;
+  }
+
+  .h-md-250 { 
+    height: 250px; 
+  }
+}
+
+/* Blog header and logo styles */
+.blog-header {
+  line-height: 1;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 1rem 0;
+}
+
+.blog-header-logo {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  font-size: 2.25rem;
+}
+
+.blog-header-logo:hover {
+  text-decoration: none;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  line-height: 1.4;
+}
+
+/* Navigation */
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.nav-scroller .nav-link {
+  padding: .75rem 0;
+  font-size: .875rem;
+}
+
+/* Card styles */
+.card-img-right {
+  height: 100%;
+  border-radius: 0 3px 3px 0;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 15vw;
+  max-height: 300px; /* Ensure the card image doesn't overflow */
+  object-fit: cover;
+}
+
+/* Flexbox utility class */
+.flex-auto {
+  flex: 0 0 auto;
+}
+
+/* Pagination styling */
+.blog-pagination {
+  margin-bottom: 4rem;
+}
+
+.blog-pagination > .btn {
+  border-radius: 2rem;
+}
+
+@media (max-width: 576px) {
+  .blog-pagination > .btn {
+    font-size: 1.2rem;
+  }
+}
+
+/* Blog post styles */
+.blog-post {
+  margin-bottom: 4rem;
+}
+
+.blog-post-title {
+  margin-bottom: .25rem;
+  font-size: 2.5rem;
+}
+
+.blog-post-title:hover {
+  font-weight: bold;
+}
+
+.blog-post-meta {
+  margin-bottom: 1.25rem;
+  color: #999;
+}
+
+/* Footer styling */
+.blog-footer {
+  padding: 2.5rem 0;
+  color: #999;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: .05rem solid #e5e5e5;
+}
+
+.blog-footer p:last-child {
+  margin-bottom: 0;
+}
+
+/* Carousel image */
+.carousel-igm {
+  width: 100%;
+  height: 70vh;
+  object-fit: cover;
+}
+
+/* Link styling */
+a {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+/* Ensure proper footer alignment */
+
+/* Custom footer styling */
+.footer-container {
+  background-color: #f8f9fa;
+}
+
+.footer-content {
+  color: #6c757d;
+}
+
+.footer-text {
+  font-size: 0.875rem; /* Smaller text for copyright */
+}
+
+.footer-text a {
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-text a:hover {
+  color: #007bff;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem; /* Add space between the icons */
+}
+
+.footer-icons a {
+  color: #343a40;
+  font-size: 2rem; /* Icon size */
+  transition: color 0.3s ease;
+}
+
+.footer-icons a:hover {
+  color: #007bff;
+}
+
+.footer-icons .text-gray-700:hover {
+  color: #212529; /* Hover color */
+}
+
