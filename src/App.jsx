@@ -33,7 +33,7 @@ function App() {
         }
     
         setCountryCd(countryCode);
-        console.log(countryCd);
+        // console.log(countryCd);
     
         if (countryCode !== "") {
           const url =
